@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glassmorphism Login</title>
+  <style>
+    body{
+      margin:0;
+      min-height:100vh;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family:sans-serif;
+      background:linear-gradient(135deg, #030c34 0%, #9a55db 100%);
+    }
+    .login-card{
+      width:350px;
+      background:rgba(96, 67, 230, 0.1);
+      padding:30px;
+      border-radius:16px;
+      box-shadow:0 8px 32px rgba(0,0,0,0.2);
+      backdrop-filter:blur(10px);
+      -webkit-backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.2);
+      color:white;
+    }
+    .login-card:hover{
+        background-color: rgb(52, 11, 97);
+        border-color: #ddd;
+    }
+    h2{
+      text-align:center;
+      margin:0 0 6px;
+    }
+    p{
+      text-align:center;
+      margin:0 0 20px;
+      font-size:14px;
+      color:#e5e7eb;
+    }
+    label{
+      font-size:14px;
+      margin-bottom:5px;
+      display:block;
+    }
+    input{
+      width:100%;
+      padding:12px;
+      margin-bottom:15px;
+      border:none;
+      border-radius:8px;
+      background:rgba(12, 219, 116, 0.2);
+      color:white;
+      font-size:14px;
+    }
+    input::placeholder{color:white}
+    .actions{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      margin-bottom:15px;
+      font-size:13px;
+    }
+    /* Actions section */
+.actions label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.actions a {
+    color: #93c5fd;
+    text-decoration: none;
+}
+ /* button */
+
+    button{
+      width:100%;
+      padding:12px;
+      border:none;
+      border-radius:8px;
+      background:linear-gradient(90deg,#3b82f6,#06b6d4);
+      color:white;
+      font-size:15px;
+      font-weight:bold;
+      cursor:pointer;
+    }
+    /* Divider style */
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+.divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+}
+
+/* Social buttons style */
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.socials button {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Signup link style */
+.signup {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <h2>Welcome Back</h2>
+    <p>Sign in to your account</p>
+    <form onsubmit="handleSubmit(event)">
+        <label for="name"> Name </label>
+        <input type="name" id="name" placeholder="Inter your name ">
+        <label for="Gender">Gender</label>
+        <input type="text" id="Gender" placeholder="Inter your gender">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required>
+      <div class="actions">
+        <label><input type="checkbox"> Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit">Sign In</button>
+      <div class="divider"><hr><span>or continue with</span><hr></div>
+      <div class="socials">
+        <button type="button">Google</button>
+        <button type="button">GitHub</button>
+      </div>
+      <div class="signup">Don't have an account? <a href="#">Sign up</a></div>
+    </form>
+  </div>
+
+ 
+  </script>
+</body>
+</html>

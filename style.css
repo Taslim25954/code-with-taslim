@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: hero;
+    src: url(./bloodcrow.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    background-color: aqua;
+    font-size: 20px;
+    font-style: italic;
+    font-family: hero;
+    font: bold;
+}
+#chiku{
+    background-color: antiquewhite;
+    color: blue;
+    margin-left: 20px ;
+}
+a{
+    background-color: rgb(67, 211, 227);
+    margin-left: 10px;
+}
