@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- <video autoplay muted loop playsinline id="bm" src="202825-919000184.mp4"></video> -->
+  <div class="signup-container">
+    
+    <form class="signup-form">
+      <h2>Create Account</h2>
+      <div class="input-group">
+        <input type="text" required>
+        <label>Full Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" required>
+        <label>Email</label>
+      </div>
+
+       <div class="input-group">
+        <input type="gender" required>
+        <label>Gender</label>
+      </div>
+      <div class="input-group">
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+
+      
+      <button type="submit" class="btn">Sign Up</button>
+      <p class="login-link">Already have an account? <a href="#">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>
