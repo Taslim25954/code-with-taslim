@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+  
+  <div class="navbar">
+     <div class="logo">𝒯𝐸𝒮𝐿𝒜</div>
+    <a href="#">Home</a>
+    <a href="#">Product</a>
+    <a href="#">About us</a>
+    <a href="#">Contact us </a>
+    <a href="#">Service</a>
+    <i class="ri-contacts-line"></i>
+    <i class="ri-bank-card-fill"></i>
+    
+  <input type="text" placeholder="Search Cars...">
+  </div>
+       
+
+
+  <main id="model">
+    <h2>Model 3</h2>
+    <h4>Electric Mindsize SUV</h4>
+    <button class="button1">Order Now</button>
+    <button class="button2">Learn More</button>
+  </main>
+  <aside id="right">
+    <p>Tesla</p>
+    <p>Tesla Model X</p>
+    <p>Tesla Model Y</p>
+    <p>Tesla Cybertruck</p>
+    <p>Tesla Roadster (2nd Gen)</p>
+     <p>Tesla Semi</p>
+  </aside>
+
+  <div id="para">
+    <h2>⚡ Tesla — The Future of Driving</h2>
+    <p>Experience innovation redefined.
+Tesla isn’t just a car — it’s a revolution on wheels. With breathtaking acceleration, smart autopilot technology, and zero emissions, Tesla cars combine luxury, performance, and sustainability like never before.
+
+From the sleek design of the Model S to the unstoppable power of the Model X and the futuristic flair of the Cybertruck — every Tesla is engineered to inspire confidence and excitement.
+
+Drive into the future with instant torque, AI-driven safety, and cutting-edge electric performance that leaves ordinary cars behind.
+
+💨 Silent. Powerful. Intelligent. 100% Electric.
+🚗 Welcome to the world of Tesla — where technology meets the road.</p>
+  </div>
+<div id="perent">
+
+<div class="child">
+<img src="https://i.pinimg.com/736x/58/23/00/582300e9f1b257db1d37b4545ea0f082.jpg" alt="">
+<h2>Model 1</h2>
+<p>Order Online for Touchless Delivery AI-driven safety</p>
+<button class="button3">Learn More and Order</button>
+
+</div>
+<div class="child">
+  <img src="https://i.pinimg.com/736x/99/b5/aa/99b5aa7336a010b109a569fb9ed2b777.jpg" alt="">
+  <h2>Model 2</h2>
+<p>Buying a car is a smart investment for comfort, freedom, and convenience.</p>
+<button class="button3">Learn More and Order</button>
+</div>
+<div class="child">
+  <img src="https://i.pinimg.com/1200x/f0/7d/7d/f07d7d74c976a2baa451ac337501048b.jpg" alt="">
+  <h2>Model 3</h2>
+<p>It gives you the power to travel anytime without depending on others.</p>
+<button class="button3">Learn More and Order</button>
+</div>
+<div class="child">
+  <img src="https://i.pinimg.com/736x/27/2e/07/272e07170d80e7d5af56ff97cc1ceb8d.jpg" alt="">
+  <h2>Model X</h2>
+<p>Modern cars come with advanced safety and technology features.</p>
+<button class="button3">Learn More and Order</button>
+</div>
+<div class="child">
+  <img src="https://i.pinimg.com/736x/8b/7f/10/8b7f10929d6a000a0d68b660a0b26199.jpg" alt="">
+  <h2>Model Y</h2>
+<p>A car saves time, especially for work, family.</p>
+<button class="button3">Learn More and Order</button>
+</div>
+
+<div class="child">
+  <img src="https://i.pinimg.com/736x/48/eb/79/48eb795e1041d3a187d361984524382f.jpg" alt="">
+  <h2>Model G</h2>
+<p>A car saves time, especially for work, family.</p>
+<button class="button3">Learn More and Order</button>
+</div>
+</div>
+
+
+<div id="card">
+   <img src="https://i.pinimg.com/736x/91/23/6c/91236cfbfe3aee7d61ee9b6cb33c7cd1.jpg" alt="">
+  <h2>Current Offers </h2>
+  <p>limited inventory.Take delivery today. <br> Choose the one that fits your lifestyle <br> Buying a car is a smart investment for <br> comfort, freedom, and convenience. <br>
+It gives you the <br>power to travel anytime without <br>depending on others. and enjoy everybr
+ <br>ride with confidence.</p>
+  <button class="button4">Learn More</button>
+</div>
+
+<div id="card1">
+   <img src="https://i.pinimg.com/736x/60/e5/bf/60e5bf20a2d7324f67390d7f68ccdfaa.jpg" alt="">
+  <h2>Annual Shareholder <br> Meeting</h2>
+  <p>This is shareholder meeting.Take delivery today. <br> Choose the one that fits your lifestyle <br> Buying a car is a smart investment for <br> comfort, freedom, and convenience. <br>
+It gives you the <br>power to travel anytime without .</p>
+  <button class="button4">Learn More</button>
+</div>
+
+<div id="video">
+  <video autoplay muted loop  playsinline preload="auto" src="2108628-hd_1280_720_30fps.mp4" src="2103099-uhd_3840_2160_30fps.mp4"></video>
+  <h1>Full Self-driving(Supervised)</h1>
+  <button class="botton1">Demo Drive</button>
+  <button class="botton2">Learn More</button>
+</div>
+
+<div id="video1">
+  <img src="https://i.pinimg.com/736x/80/bb/70/80bb707664300f1d65ad7091fff44044.jpg" alt="">
+  <h1>Features That Come Standard </h1>
+  <button class="botton3">Discover</button>
+</div>
+
+
+
+<div id="find">
+  <h1>Find Your Charge</h1>
+  <p>view the network of tesla Superchargers and Destination Chargers available</p>
+  <button class="bt1">View Network </button>
+  <button class="bt2">Learn More </button>
+ </div>
+
+<div class="mapouter" style="position:relative; text-align:right; width:100%; height:450px;">
+  <div class="gmap_canvas" style="overflow:hidden; background:none!important; width:100%; height:450px;">
+    <iframe width="500px" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?q=https%3A%2F%2Fmaps.app.goo.gl%2FnnaA3h9QABmqZPQg9&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+  </div>
+  <a href="https://norsumediagroup.com/embed-google-map-website-free" target="_blank" rel="noopener noreferrer" class="gme-generated-link">Embed Map on Website for Free</a>
+  
+
+</body>
+</html>
