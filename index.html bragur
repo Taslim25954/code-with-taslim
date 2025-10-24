@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <i class="ri-shopping-bag-line"></i>
+           
+        </div>  
+    </header>
+
+    <main id="main">
+        <h1>Fast Food Restaurant</h1>
+        <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente <br> ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore,<br> sunt repellat dolore,  iste magni quos nihil ducimus libero ipsam.</p>
+        <button>Order Now</button>
+    </main>
+     
+    <section>
+        <div class="card">
+            <img src="o2.jpg" alt="">
+            <h3>Tasty Pizza</h3>
+            <h5>
+                <span>20%</span>
+                "off"
+            </h5>
+            <button>Order Now <i class="ri-shopping-cart-line"></i></button>
+        </div>
+
+         <div class="card">
+            <img src="o1.jpg" alt="">
+            <h3>Tasty Burger</h3>
+            <h5>
+                <span>15%</span>
+                "off"
+            </h5>
+            <button>Order Now <i class="ri-shopping-cart-line"></i></button>
+        </div>
+    </section>
+
+    <div id="menu">
+        <h1>Our Menu </h1>
+    </div>
+
+    <div class="para">
+        <a href="#">All</a>
+        <a href="#">Burger </a>
+        <a href="#">Pizza</a>
+        <a href="#">Pasta</a>
+        <a href="#">Fries</a>
+    </div>
+
+    <figure>
+ <div class="car">
+    <img src="img1.png" alt="">
+    <h2>Delicious Pizza</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $20
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+    
+
+ <div class="car">
+    <img src="img2.png" alt="">
+    <h2>Delicious Burger</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $15
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+
+ <div class="car">
+    <img src="img3.png" alt="">
+    <h2>Delicious Pizza</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $25
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+
+ <div class="car">
+    <img src="img5.png" alt="">
+    <h2>Delicious Pasta</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $30
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+
+ <div class="car">
+    <img src="img6.png" alt="">
+    <h2>French Fries</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $10
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+
+ <div class="car">
+    <img src="img7.png" alt="">
+    <h2>Delicious Salad</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $35
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+    
+
+ <div class="car">
+    <img src="img8.png" alt="">
+    <h2> delicious kofta</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $40
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+    
+
+
+ <div class="car">
+    <img src="img9.png" alt="">
+    <h2>Delicious momo</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+    <h3>
+        $95
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+    
+
+ <div class="car">
+    <img src="o2.jpg" alt="">
+    <h2>Delicious chowmein</h2>
+    <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque </p>
+    
+    <h3>
+        $72
+        <a href=""><i class="ri-shopping-cart-line"></i></a>
+    </h3>
+ </div>
+    </figure>
+
+    <div class="view">
+      <button>View More</button>
+</div>
+
+<div id="mix">
+    <h1>Popular Dishes</h1>
+    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+    <button>Read More</button>
+</div>
+ 
+<div id="head">
+     <div class="login-card">
+    <h2>Login</h2>
+    <p>Please enter your details</p>
+
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your username" required>
+      </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="Enter your Phone Number" required>
+      </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="Enter your Email" required>
+      </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="Enter your How many people" required>
+      </div>
+
+        <div class="input-box">
+        <input type="text" placeholder="Enter your dd-mm-yyyy" required>
+      </div>
+
+      <div class="input-box">
+        <input type="password" placeholder="Enter your password" required>
+      </div>
+
+      <button type="submit" class="bt">Login</button>
+
+      <div class="links">
+        <a href="#">Forgot Password?</a>
+        <a href="#">Create Account</a>
+        
+      </div>
+    </form>
+  </div>
+</div>
+<div>
+    <h2 class="h2">What Our Customers Say</h2>
+</div>
+<div class="what">
+   
+            <div class="card">
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nobis, ratione delectus laboriosam dolor fugiat ex? Cupiditate temporibus molestiae sapiente exercitationem. Voluptatum rerum officiis corporis?</h4>   
+              <h5>Malik Ahmed</h5>   
+          </div>
+        
+
+                    <div class="card">
+                  <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, quae unde ab minima cupiditate suscipit facilis nesciunt consequatur, fuga architecto at illo laborum maxime? Autem!</h4>
+                  <h5>Hassan Ali</h5>
+            </div>
+            
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
