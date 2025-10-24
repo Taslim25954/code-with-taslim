@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+body {
+  background-image: url(hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: yellow;
+  padding: 10px 0px;
+}
+header .navbar a {
+  text-decoration: none;
+  color: black;
+  margin: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+header .navbar a:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in-out;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+header .ri-shopping-bag-line {
+  font-size: 25px;
+  color: black;
+  margin-left: 5rem;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+#main h1 {
+  color: white;
+  margin-left: 12px;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+#main p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #f5f3f3;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+#main button {
+  outline: none;
+  border: none;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 6px 20px;
+  margin-top: 15px;
+  margin-left: 12px;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+#main button:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in-out;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section .card {
+  height: 300px;
+  width: 550px;
+  background-color: rgb(63, 61, 61);
+  margin: 1rem;
+  border-radius: 10px;
+}
+section .card img {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  border: 1px solid yellow;
+}
+section .card img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+section .card h3 {
+  margin-top: -20%;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-left: 9rem;
+}
+section .card h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  margin-left: 5rem;
+}
+section .card button {
+  background-color: yellow;
+  padding: 4px 20px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35%;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin-left: 15rem;
+  cursor: pointer;
+}
+section .card button:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in;
+}
+
+#menu {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.para a {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+.para a:hover {
+  background-color: rgb(226, 226, 92);
+  transition: all ease-in 0.5s;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+figure .car {
+  height: 500px;
+  width: 450px;
+  border-radius: 1rem;
+  background-color: rgb(50, 48, 48);
+  color: white;
+}
+figure .car img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  object-fit: cover;
+}
+figure .car img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+figure .car h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+figure .car p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+figure .car h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+figure .car h3 a {
+  background-color: yellow;
+  padding: 2px 8px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+button {
+  margin-left: 45%;
+  margin-top: 3rem;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: yellow;
+  color: black;
+  padding: 6px 20px;
+  border-radius: 4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in;
+}
+
+#mix {
+  width: 100%;
+}
+#mix h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+#mix p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+#mix button {
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 2px 20px;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+#mix button:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  background-color: #555;
+  color: white;
+}
+#head h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#head p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+#head form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 20rem;
+}
+#head form .input-box {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(224, 32, 32, 0.2);
+}
+#head form .bt {
+  background-color: yellow;
+  padding: 1px 4px;
+  margin-top: -2px;
+}
+#head form .bt:hover {
+  background-color: rgb(83, 83, 225);
+  transition: all 0.5s ease-in;
+}
+#head form a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5rem;
+}
+
+.h2 {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.what {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.what h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.what .card {
+  height: 200px;
+  width: 550px;
+  background-color: rgb(160, 155, 155);
+  margin: 1rem;
+  border-radius: 10px;
+}
+.what .card h4 {
+  text-align: center;
+  margin: 2rem;
+}
+.what .card h5 {
+  margin: 1rem;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  border-radius: 100%;
+  width: 150px;
+  justify-content: space-between;
+}
+
+@media (min-width: 2500px) {
+  header {
+    background-color: lightblue;
+  }
+  header .navbar a {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 700px) {
+  section {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  section .card {
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+  }
+  section .card img {
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+  section .card h3 {
+    font-size: 30px;
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+  section .card h5 {
+    font-size: 20px;
+    margin-left: 1rem;
+    margin-top: 10px;
+  }
+  section .card button {
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 4px 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 30px;
+  }
+  section .card button:hover {
+    background-color: rgb(178, 178, 30);
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media (min-width: 368px) and (max-width: 1700px) {
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  figure .car {
+    height: 400px;
+    width: 350px;
+  }
+  figure .car img {
+    height: 150px;
+    width: 150px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 600px) {
+  .view {
+    margin-right: 7rem;
+  }
+}/*# sourceMappingURL=style.css.map */
