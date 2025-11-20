@@ -1,0 +1,26 @@
+
+var grwo=0;
+var btn = document.querySelector('button');
+
+var h3=document.querySelector('h3');   
+var inner=document.querySelector('.inner');
+
+btn.addEventListener('click', function(){
+    btn.style.pointerEvents='none';
+    var num =50+ Math.floor(Math.random()*50)
+   var ini= setInterval(() => {
+        grwo++;
+
+        h3.innerHTML= grwo + '%';
+        document.querySelector('.inner').style.width = grwo + '%';
+
+    }, 50);
+
+    setTimeout(() => {
+        btn.innerHTML='Done';
+        btn.style.opacity='-1';
+        clearInterval(ini);
+        console.log('done in' ,num/10,'seconds');
+
+    }, num*50);
+});
