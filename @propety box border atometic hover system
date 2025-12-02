@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+
+
+}
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+
+  @keyframes spin {
+    from {
+      --rotate: 0deg;
+    }
+    to {
+      --rotate: 360deg;
+    }
+  }
+
+.box{
+    height: 400px;
+    width: 400px;
+    color: whitesmoke;
+    padding-inline: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    
+     animation: none;
+    transition: 0.4s ease;
+}
+
+
+
+.box:hover{
+     background: 
+    linear-gradient(rgb(0, 0, 0)) content-box,
+    conic-gradient(from var(--rotate), black, rgb(5, 241, 40) ,black,black );
+    border: 5px solid rgba(255, 255, 255, 0);
+
+
+    box-shadow: 0 0 60px rgb(60, 5, 241);
+    animation: spin 4s linear infinite;
+}
+
+.box img{
+    width: 100%;
+}
