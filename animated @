@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color: wheat;
+
+    animation: example 5s infinite linear;
+}
+
+.card p{
+    color: white;
+}
+
+/* Animation */
+@keyframes example {
+  from{
+    box-shadow: 0px 0px 200px green;
+    border-radius: 0;
+    /* transform: scale(0.5); */
+  }
+
+  to{
+    box-shadow: 0px 0px 40px red;
+    border-radius: 20%;
+    /* transform: scale(0.7); */
+  }
+}
