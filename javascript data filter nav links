@@ -1,0 +1,57 @@
+// navbar links
+const menuLinks = document.querySelectorAll(".nav-links a");
+
+// page sections
+const sections = document.querySelectorAll("[data-section]");
+
+// home items
+const homeItems = document.querySelector(".home-items");
+
+// extra sections jisko hide/show karna hai
+const sectionA = document.querySelector(".sectionA");
+const sectionB = document.querySelector(".sectionB");
+
+// -------- DEFAULT: show home --------
+sections.forEach(s => s.style.display = "none");
+document.querySelector('[data-section="Home"]').style.display = "block";
+
+
+// -------- NAV CLICK FUNCTION --------
+menuLinks.forEach(link => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    let filter = link.getAttribute("data-filter");
+
+    // hide all sections
+    sections.forEach(sec => sec.style.display = "none");
+
+    // show selected section
+    const showSec = document.querySelector(`[data-section="${filter}"]`);
+    if (showSec) showSec.style.display = "block";
+
+    // show/hide home items
+    if (filter === "Home") {
+      homeItems.style.display = "block";
+
+      // custom hide/show inside HOME
+      sectionA.style.display = "none";   // HIDE
+      sectionB.style.display = "block";  // SHOW
+
+    } else if (filter === "About") {
+
+      // custom hide/show inside ABOUT
+      sectionA.style.display = "block";  // SHOW
+      sectionB.style.display = "none";   // HIDE
+
+      homeItems.style.display = "none";
+
+    } else {
+      // for any other page
+      sectionA.style.display = "none";
+      sectionB.style.display = "none";
+      homeItems.style.display = "none";
+    }
+
+  });
+});
